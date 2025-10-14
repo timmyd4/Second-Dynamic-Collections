@@ -1,7 +1,7 @@
 export default function MovieDetails(props)
 {
     const actor = props.actors.map((y)=>{
-        <li key={y}>{y}</li>
+        return <li key={y}>{y}</li>
     })
     return(
         <>
