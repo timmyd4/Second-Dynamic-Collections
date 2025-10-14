@@ -9,7 +9,7 @@
                 <>
                 <h4>{x.title}</h4>
                 <img className="img-styles" src={x.poster}></img>
-                <MovieDetails genre={x.genre} />
+                <MovieDetails genre={x.genre}  />
                 <MovieRating rating={x.rating}/>
                 </>
             ))
