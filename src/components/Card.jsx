@@ -5,11 +5,9 @@
         return(
             Data.map((x)=>(
                 <>
-                <h1>{x.genre}</h1>
-
-
+                <h4>{x.title}</h4>
+                <img src={x.poster}></img>
                 </>
-
             ))
         )
     }
@@ -20,9 +18,5 @@
         {movies()}
         
         </>
-
-
-
-
     )
 }

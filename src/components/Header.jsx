@@ -1,3 +1,3 @@
  export default  function Header(){
-    return( <h1> Movie List </h1>)
+    return( <h1 className="Header"> Movie List </h1>)
 }
