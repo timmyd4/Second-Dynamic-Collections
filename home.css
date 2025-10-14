@@ -24,3 +24,8 @@ small
     align-items: center;
     justify-items: center;
 }
+
+.list
+{
+    list-style-type: none;
+}

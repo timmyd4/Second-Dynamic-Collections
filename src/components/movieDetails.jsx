@@ -7,7 +7,7 @@ export default function MovieDetails(props)
         <>
         <h5>{props.genre}</h5>
         <h5>{props.director}</h5>
-        <ul>{ actor}</ul>
+        <ul className="list">{ actor}</ul>
 
         
         </>
