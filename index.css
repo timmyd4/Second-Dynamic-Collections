@@ -15,3 +15,12 @@ small
 {
     width: 50px;
 }
+
+.Card-Styles
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}

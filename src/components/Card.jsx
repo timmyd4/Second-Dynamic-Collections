@@ -6,14 +6,12 @@
     function movies(){
         return(
             Data.map((x)=>(
-                <>
+                <div className="Card-styles">
                 <h4>{x.title}</h4>
                 <img className="img-styles" src={x.poster}></img>
                 <MovieDetails genre={x.genre} director={x.director} actors={x.actors} />
                 <MovieRating rating={x.rating}/>
-                
-                
-                </>
+                </div>
             ))
         )
     }

@@ -7,7 +7,9 @@ export default function App(){
     return(
     <>
         <Header/>
-        <Card/>
+        <div>
+            <Card/>
+        </div>
         <Footer/>
     </>
     );
