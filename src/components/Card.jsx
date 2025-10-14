@@ -1,4 +1,5 @@
  import Data from "../../data.js";
+ import movieDetails from "./movieDetails.jsx";
  
  export default  function Card(){
     function movies(){
@@ -6,7 +7,9 @@
             Data.map((x)=>(
                 <>
                 <h4>{x.title}</h4>
-                <img src={x.poster}></img>
+                <img className="img-styles" src={x.poster}></img>
+                <movieDetails genre={x.genre} />
+                <p>{x.genre}</p>
                 </>
             ))
         )
@@ -16,7 +19,6 @@
     return(
         <>
         {movies()}
-        
         </>
     )
 }

@@ -10,3 +10,8 @@ small
     align-items: center;
     justify-items: center;
 }
+
+.img-styles
+{
+    width: 50px;
+}
